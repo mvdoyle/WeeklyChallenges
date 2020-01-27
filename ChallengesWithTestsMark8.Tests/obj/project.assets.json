@@ -1677,9 +1677,6 @@
       "ChallengesWithTestsMark8/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0"
-        },
         "compile": {
           "bin/placeholder/ChallengesWithTestsMark8.dll": {}
         },
@@ -5861,11 +5858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "projectUniqueName": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "projectName": "ChallengesWithTestsMark8.Tests",
-      "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "projectPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-      "outputPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/obj/",
+      "outputPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5882,8 +5879,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
-              "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
+            "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+              "projectPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
             }
           }
         }
@@ -5917,10 +5914,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

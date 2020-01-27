@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "projectUniqueName": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
       "projectName": "ChallengesWithTestsMark8",
-      "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+      "projectPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
       "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-      "outputPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/obj/",
+      "outputPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -727,16 +727,23 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
