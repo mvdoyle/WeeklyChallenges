@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet03
     {
         public bool ArrayContainsAFalse(bool[] vals)
-        {
-            bool flag = false;
-            
+        {            
             for (int i = 0; i < vals.Length; i++)
             {
                 if(vals[i] == false)
@@ -17,25 +16,17 @@ namespace ChallengesWithTestsMark8
                 }
             }
 
-            return flag;
+            return false;
         }
 
         public bool IsSumOfOddsOdd(IEnumerable<int> numbers)
         {
-            var sum = 0;
-
-            if(numbers == null)
+            if(numbers == null || numbers.Count() == 0)
             {
                 return false;
             }
-                        
-            foreach(var num in numbers)
-            {
-                if(num % 2 != 0)
-                {
-                    sum += num;
-                }
-            }
+
+            var sum = numbers.Sum();
           
             return (sum % 2 != 0);
         }
@@ -64,7 +55,7 @@ namespace ChallengesWithTestsMark8
                 }
             }
 
-            if(isLower && isUpper && isNumber)
+            if(isLower == true && isUpper == true && isNumber == true)
             {
                 return true;
             }
@@ -76,7 +67,7 @@ namespace ChallengesWithTestsMark8
 
         public char GetFirstLetterOfString(string val)
         {
-            return val[0];
+            return val.First();
         }
 
         public char GetLastLetterOfString(string val)
