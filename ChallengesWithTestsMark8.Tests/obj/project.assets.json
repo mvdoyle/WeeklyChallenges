@@ -5858,11 +5858,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/michaeldoyle/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "projectName": "ChallengesWithTestsMark8.Tests",
       "projectPath": "/Users/michaeldoyle/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
       "outputPath": "/Users/michaeldoyle/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/",
+=======
+      "projectUniqueName": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "projectName": "ChallengesWithTestsMark8.Tests",
+      "projectPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
+      "outputPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/",
+>>>>>>> bcbd8dad8e65dabc7c0a27facecc5adb7f5032a8
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5879,8 +5887,13 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/michaeldoyle/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
               "projectPath": "/Users/michaeldoyle/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
+=======
+            "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+              "projectPath": "/Users/michaeldoyle/repos/markx/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
+>>>>>>> bcbd8dad8e65dabc7c0a27facecc5adb7f5032a8
             }
           }
         }
@@ -5923,7 +5936,11 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+>>>>>>> bcbd8dad8e65dabc7c0a27facecc5adb7f5032a8
       }
     }
   }
