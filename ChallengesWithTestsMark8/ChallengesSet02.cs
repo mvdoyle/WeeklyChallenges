@@ -6,10 +6,10 @@ namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet02
     {
-        public bool CharacterIsALetter(char c) => char.IsLetter(c);
-        //{
-        //    return Char.IsLetter(c);
-        //}
+        public bool CharacterIsALetter(char c)
+        {
+            return Char.IsLetter(c);
+        }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
@@ -48,7 +48,57 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            return numbers == null || numbers.Count() < 1 ? 0 : numbers.Max() + numbers.Min();
+            //return numbers == null || numbers.Count() == 0 ? 0 : numbers.Min() + numbers.Max();
+
+            // Null or Empty Check
+            if (numbers == null || numbers.Count() == 0)
+            {
+                return 0;
+            }
+
+            return numbers.Min() + numbers.Max();
+
+
+
+            //var min = numbers.Min();
+            //var max =  numbers.Max();
+
+            //return min + max;
+
+            //if (numbers == null)
+            //{
+            //    return 0;
+            //}
+
+            //if (numbers.Count() < 1)
+            //{
+            //   return numbers.First<double>() + numbers.First<double>();
+            //}
+
+            //double min = 0;
+            //double max = 0;
+
+            //foreach (var num in numbers)
+            //{
+            //    if (num > min)
+            //    {
+            //        max = num;
+            //    }
+            //}
+
+            //foreach (var num in numbers)
+            //{
+            //    if (num < min)
+            //    {
+            //        min = num;
+            //    }
+            //}
+
+            //return min + max;
+
+
+
+            //return numbers == null || numbers.Count() < 1 ? 0 : numbers.Max() + numbers.Min();
 
             //if (numbers == null || numbers.Count() == 0)
             //{
@@ -61,11 +111,10 @@ namespace ChallengesWithTestsMark8
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
+
+
             var list = new List<int>() { str1.Length, str2.Length };  //object initializer syntax
             return list.Min();
-
-            //return list.Min();
-
 
             //return str1.Length > str2.Length ? str2.Length : str1.Length;
 
@@ -82,10 +131,15 @@ namespace ChallengesWithTestsMark8
             //int sum = 0;
             //if (numbers == null)
             //    return 0;
-            //for (int i = 0; i<numbers.Length; i++)
+            //foreach (var num in numbers)
             //{
-            //    sum += numbers[i];
+            //    sum += num;
             //}
+
+            ////for (int i = 0; i < numbers.Length; i++)
+            ////{
+            ////    sum += numbers[i];
+            ////}
             //return sum;
         }
 

@@ -72,23 +72,32 @@ namespace ChallengesWithTestsMark8
 
             public int IndexOfLastUniqueLetter(string str)
             {
-                return str.IndexOf(str.Distinct().Reverse().Where(x => str.Where(y => y.Equals(x)).Count() == 1).FirstOrDefault());
+                //return str.IndexOf(str.Distinct().Reverse().Where(x => str.Where(y => y.Equals(x)).Count() == 1).FirstOrDefault());
 
-                //int[] arr = new int[str.Length];
+                int index = -1;
+                bool uindex = true;
 
-                //for (int i = 0; i < str.Length; i++)
-                //{
-                //    for (int j = 1; j < str.Length; j++)
-                //    {
-                //        if (str[i] == str[j])
-                //        {
-                //            arr[i]++;
-                //        }
-                //    }
-                //}
-            }
+                for (int i = 0; i < str.Length; i++)
+                {
+                    uindex = true;
 
-            public int MaxConsecutiveCount(int[] numbers)
+                    for (int j = 0; j < str.Length; j++)
+                    {
+                        if (str[i] == str[j] && i != j)
+                        {
+                            uindex = false;
+                        }
+                    }
+
+                    if (uindex == true)
+                    {
+                        index = i;
+                    }
+                }
+                return index;
+        }
+
+        public int MaxConsecutiveCount(int[] numbers)
             {
                 var list = new List<int>();
                 int count = 1;
@@ -215,9 +224,6 @@ namespace ChallengesWithTestsMark8
                 return TicTacToeResult.X;
             }
 
-
-
-
             // Horizontal O's
             //----------------------------------------------------------------------------------------------------
             else if (finalBoard[0, 0] == 'O' && finalBoard[0, 1] == 'O' && finalBoard[0, 2] == 'O')
@@ -235,7 +241,6 @@ namespace ChallengesWithTestsMark8
 
             // Vertical O's
             //----------------------------------------------------------------------------------------------------
-
             else if (finalBoard[0, 0] == 'O' && finalBoard[1, 0] == 'O' && finalBoard[2, 0] == 'O')
             {
                 return TicTacToeResult.O;
@@ -251,7 +256,6 @@ namespace ChallengesWithTestsMark8
 
             // Diagonal O's
             //----------------------------------------------------------------------------------------------------
-
             else if (finalBoard[0, 0] == 'O' && finalBoard[1, 1] == 'O' && finalBoard[2, 2] == 'O')
             {
                 return TicTacToeResult.O;
@@ -260,6 +264,7 @@ namespace ChallengesWithTestsMark8
             {
                 return TicTacToeResult.O;
             }
+
             //---------------------------------------------------------------------------------------------------
             else
             {
