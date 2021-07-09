@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengesWithTestsMark8", "ChallengesWithTestsMark8\ChallengesWithTestsMark8.csproj", "{5D8F9EC8-A726-4E18-B4B5-C64B4DCDE247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengesWithTestsMark8", "ChallengesWithTestsMark8\ChallengesWithTestsMark8.csproj", "{5D8F9EC8-A726-4E18-B4B5-C64B4DCDE247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengesWithTestsMark8.Tests", "ChallengesWithTestsMark8.Tests\ChallengesWithTestsMark8.Tests.csproj", "{5F6EDB8F-2166-447C-BACA-784679AC4459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengesWithTestsMark8.Tests", "ChallengesWithTestsMark8.Tests\ChallengesWithTestsMark8.Tests.csproj", "{5F6EDB8F-2166-447C-BACA-784679AC4459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_UnitDemo", "N_UnitDemo\N_UnitDemo.csproj", "{B69A9CD2-33E0-4220-B4A2-7ECDF30A0613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5F6EDB8F-2166-447C-BACA-784679AC4459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F6EDB8F-2166-447C-BACA-784679AC4459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F6EDB8F-2166-447C-BACA-784679AC4459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69A9CD2-33E0-4220-B4A2-7ECDF30A0613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69A9CD2-33E0-4220-B4A2-7ECDF30A0613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69A9CD2-33E0-4220-B4A2-7ECDF30A0613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69A9CD2-33E0-4220-B4A2-7ECDF30A0613}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

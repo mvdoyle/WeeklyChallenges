@@ -21,10 +21,7 @@ namespace ChallengesWithTestsMark8
         {
             foreach (var biz in businesses)
             {
-                if (biz.TotalRevenue == 0)
-                    biz.Name = "CLOSED";
-                if (biz.TotalRevenue < biz.TotalExpenses)
-                    biz.Name = "CLOSED";
+                var bizName = biz.TotalRevenue <= 0 ? biz.Name = "CLOSED" : "OPEN";
             }
         }
 
@@ -107,27 +104,20 @@ namespace ChallengesWithTestsMark8
 
         public bool TwoDifferentElementsInArrayCanSumToTargetNumber(int[] nums, int targetNumber)
         {
-            bool isTrue = false;
-
             if (nums.Length == 0)
                 return false;
 
             for (int i = 0; i < nums.Length; i++)
             {
-                int result1 = nums[i];
-                for (int j = 0; j < nums.Length; j++)
+                for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if (i == j)
-                        continue;
-                    int result2 = nums[j];
-                    if (result1 + result2 == targetNumber)
+                    if (nums[i] + nums[j] == targetNumber)
                     {
-                        isTrue = true;
-                        break;
+                        return true;
                     }
                 }
             }
-            return isTrue;
+            return false;
         }
     }
 }

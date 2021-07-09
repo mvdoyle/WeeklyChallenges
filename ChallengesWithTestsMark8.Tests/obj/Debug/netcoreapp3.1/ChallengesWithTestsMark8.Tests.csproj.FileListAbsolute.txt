@@ -92,7 +92,6 @@ C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\netcoreapp3.1\ChallengesWithTestsMark8.dll
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\bin\Debug\netcoreapp3.1\ChallengesWithTestsMark8.pdb
-C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.csprojAssemblyReference.cache
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.AssemblyInfoInputs.cache
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.AssemblyInfo.cs
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.csproj.CoreCompileInputs.cache
@@ -100,3 +99,4 @@ C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.dll
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.pdb
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.genruntimeconfig.cache
+C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.csproj.AssemblyReference.cache
