@@ -75,3 +75,4 @@ C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.dll
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.pdb
 C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.genruntimeconfig.cache
+C:\Users\johnd\Desktop\Repos\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.csproj.AssemblyReference.cache
