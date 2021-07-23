@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7r8uNXgS4Q17xcViKubKN6kXX5IsiuPTkJJjmxqSFLCisrTdZESf7bOpgkhD8LOBKCIbk3852+ehh6xwIXVhRA==",
+  "dgSpecHash": "4zDasEbsWJz2VavCCJWep2f1vLCethCp8pKQ6EbF7yxceiqNCUJGRRhZRomw89DubH8jevha0sTzv+VoagcZqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\johnd\\Desktop\\Repos\\WeeklyChallenges\\N_UnitDemo\\N_UnitDemo.csproj",
+  "projectFilePath": "C:\\Users\\johnd\\Desktop\\repos\\WeeklyChallenges\\N_UnitDemo\\N_UnitDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johnd\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\johnd\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

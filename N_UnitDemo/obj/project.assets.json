@@ -4976,11 +4976,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johnd\\Desktop\\Repos\\WeeklyChallenges\\N_UnitDemo\\N_UnitDemo.csproj",
+      "projectUniqueName": "C:\\Users\\johnd\\Desktop\\repos\\WeeklyChallenges\\N_UnitDemo\\N_UnitDemo.csproj",
       "projectName": "N_UnitDemo",
-      "projectPath": "C:\\Users\\johnd\\Desktop\\Repos\\WeeklyChallenges\\N_UnitDemo\\N_UnitDemo.csproj",
+      "projectPath": "C:\\Users\\johnd\\Desktop\\repos\\WeeklyChallenges\\N_UnitDemo\\N_UnitDemo.csproj",
       "packagesPath": "C:\\Users\\johnd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johnd\\Desktop\\Repos\\WeeklyChallenges\\N_UnitDemo\\obj\\",
+      "outputPath": "C:\\Users\\johnd\\Desktop\\repos\\WeeklyChallenges\\N_UnitDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5003,8 +5003,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\johnd\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
-              "projectPath": "C:\\Users\\johnd\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj"
+            "C:\\Users\\johnd\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
+              "projectPath": "C:\\Users\\johnd\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj"
             }
           }
         }

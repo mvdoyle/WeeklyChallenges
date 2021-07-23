@@ -28,5 +28,23 @@ namespace N_UnitDemo
             var actual = _set01.AreTwoNumbersTheSame(a, b);
             Assert.AreEqual(expected, actual);
         }
+
+
+        [TestCase(10, 7, 3)]
+        [TestCase(100, 75, 25)]
+        [TestCase(1, 1, 0)]
+        [TestCase(10, 15, -5)]
+        [TestCase(0, 7, -7)]
+        [TestCase(0, 0, 0)]
+        [TestCase(-5, 5, -10)]
+        [TestCase(-10, -7, -3)]
+        [TestCase(-10, -15, 5)]
+        [TestCase(5.5, 1.2, 4.3)]
+        [TestCase(0.7, 0.35, 0.35)]
+        [TestCase(-2.2, 1.1, -3.3)]
+        public void Subtract(double minuend, double subtrahend, double expectedDifference)
+        {
+            var actual = _set01.Subtract
+        }
     }
 }
