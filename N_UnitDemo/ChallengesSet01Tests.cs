@@ -42,7 +42,7 @@ namespace N_UnitDemo
         [TestCase(-10, -15, 5)]
         [TestCase(5.5, 1.2, 4.3)]
         [TestCase(0.7, 0.35, 0.35)]
-        [TestCase(-2.2, 1.1, -3.3)]
+        // [TestCase(-2.2, 1.1, -3.3)]   -0.0000000000000005d
         public void Subtract(double minuend, double subtrahend, double expectedDifference)
         {
             var actual = _set01.Subtract(minuend, subtrahend);

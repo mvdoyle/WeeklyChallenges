@@ -19,9 +19,6 @@ namespace ChallengesWithTestsMark8
         public double Subtract(double minuend, double subtrahend)
         {
             return minuend - subtrahend;
-
-            //double result = minuend - subtrahend;
-            //return result;
         }
 
         public int Add(int number1, int number2)

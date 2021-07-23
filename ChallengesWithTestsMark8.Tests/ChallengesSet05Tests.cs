@@ -141,6 +141,7 @@ namespace ChallengesWithTestsMark8.Tests
             Assert.Equal(expected, actual);
         }
 
+
         [Theory]
         [InlineData(new[] { 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 }, new[] { 4d, 8, 12, 16 })]
         [InlineData(new[] { 1d, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 }, new[] { 4d, 8, 12 })]
@@ -169,6 +170,7 @@ namespace ChallengesWithTestsMark8.Tests
                 Assert.Equal(Math.Round(expected[i], 4), Math.Round(actual[i], 4));
             }
         }
+
 
         [Theory]
         [InlineData(new[] { 1, 2, 3 }, 5, true)]

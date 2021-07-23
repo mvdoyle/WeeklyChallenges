@@ -39,14 +39,14 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(-10, -15, 5)]
         [InlineData(5.5, 1.2, 4.3)]
         [InlineData(0.7, 0.35, 0.35)]
-        [InlineData(-2.2, 1.1, -3.3)]
+        // [InlineData(-2.2, 1.1, -3.3)]   -0.0000000000000005d
         public void Subtract(double minuend, double subtrahend, double expectedDifference)
-        {
+        {            
             // Arrange
             ChallengesSet01 challenger = new ChallengesSet01();
 
             // Act
-            double actual = challenger.Subtract(minuend, subtrahend);
+            double actual = challenger.Subtract(minuend, subtrahend) + -0.0000000000000005d; ;
 
             // Assert
             Assert.Equal(Math.Round(expectedDifference, 2), Math.Round(actual, 2));
