@@ -5,7 +5,7 @@ using System;
 namespace N_UnitDemo
 {
     [TestFixture]
-    public class Tests
+    public class ChallengesSet01Tests
     {
         private ChallengesSet01 _set01;
 
