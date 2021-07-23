@@ -1,3 +1,7 @@
 # WeeklyChallenges
 
-- Add TODO's for weekly challenges set 1
+- ### 6 Challenge Sets of increasing difficulty
+
+- ### X-Unit Test Project for all 6 Challenge Sets
+
+- ### N-Unit Test Project in progress...
