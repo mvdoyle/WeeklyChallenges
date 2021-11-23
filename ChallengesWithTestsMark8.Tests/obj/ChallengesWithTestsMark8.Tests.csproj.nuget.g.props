@@ -7,10 +7,11 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/michaeldoyle/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/michaeldoyle/.nuget/packages/;/usr/local/share/dotnet/sdk/NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+    <SourceRoot Include="/Users/michaeldoyle/.nuget/packages/" />
+    <SourceRoot Include="/usr/local/share/dotnet/sdk/NuGetFallbackFolder/" />
   </ItemGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -20,7 +21,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/15.9.0/build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/15.9.0/build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.props')" />
     <Import Project="$(NuGetPackageRoot)xunit.core/2.4.0/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.4.0/build/xunit.core.props')" />
-    <Import Project="/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.props" Condition="Exists('/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/usr/local/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>

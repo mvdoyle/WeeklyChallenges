@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ldGTkaD004XTGUQu5FAhsohD90PEvioyTeOwJIXEFkGYgxYIQBM2gpgADkWRRZpH+fXFUG4smS9+CO4I47oK1Q==",
+  "dgSpecHash": "5gxZcuDIHu8Lp/JnmnNZeE3ZxeLvvRm6N9eU+Z+5RveaExIWJ/s9Nuy6vmjImgPLJC4DQ7Cqkfara6MtZgvoBw==",
   "success": true,
-  "projectFilePath": "/Users/michaeldoyle/repos/Mark13/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
-  "expectedPackageFiles": [
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
