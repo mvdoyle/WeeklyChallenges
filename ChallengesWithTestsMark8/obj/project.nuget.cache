@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AgXWo8hmRiTyXLApdh2a+Tgu3T/GSyq3Nf6MWUpgQ6XqJmnb3OK7+J17wVwtiPVUJiJkNcejFfXV3akXOEqKag==",
+  "dgSpecHash": "Cwlr4NthygAa3tmUUGTtK5g45k9OODMXFKC1uq7mMHjGiPzI1MyP43K1DSDIWpK3hUH+rrqNk5QgseC4CZRasw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rnv84379\\source\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+  "projectFilePath": "C:\\Users\\rnv84379\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rnv84379\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\rnv84379\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
