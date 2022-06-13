@@ -6555,23 +6555,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/michaeldoyle/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/miah/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "projectUniqueName": "/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "projectName": "ChallengesWithTestsMark8.Tests",
-      "projectPath": "/Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
-      "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-      "outputPath": "/Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/",
+      "projectPath": "/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "packagesPath": "/Users/miah/.nuget/packages/",
+      "outputPath": "/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/michaeldoyle/.config/NuGet/NuGet.Config"
+        "/Users/miah/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6583,8 +6579,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
-              "projectPath": "/Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
+            "/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+              "projectPath": "/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
             }
           }
         }
@@ -6627,7 +6623,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
       }
     }
   }

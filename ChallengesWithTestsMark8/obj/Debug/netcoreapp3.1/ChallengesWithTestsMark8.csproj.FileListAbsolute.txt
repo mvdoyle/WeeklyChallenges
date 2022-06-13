@@ -11,3 +11,17 @@
 /Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.dll
 /Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.pdb
 /Users/michaeldoyle/repos/mark18/repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.genruntimeconfig.cache
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/bin/Debug/netcoreapp3.1/ChallengesWithTestsMark8
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/bin/Debug/netcoreapp3.1/ChallengesWithTestsMark8.deps.json
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/bin/Debug/netcoreapp3.1/ChallengesWithTestsMark8.runtimeconfig.json
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/bin/Debug/netcoreapp3.1/ChallengesWithTestsMark8.runtimeconfig.dev.json
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/bin/Debug/netcoreapp3.1/ChallengesWithTestsMark8.dll
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/bin/Debug/netcoreapp3.1/ChallengesWithTestsMark8.pdb
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.csproj.AssemblyReference.cache
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.AssemblyInfoInputs.cache
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.AssemblyInfo.cs
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.dll
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.pdb
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Debug/netcoreapp3.1/ChallengesWithTestsMark8.genruntimeconfig.cache
