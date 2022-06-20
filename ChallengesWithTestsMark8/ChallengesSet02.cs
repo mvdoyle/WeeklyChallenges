@@ -1,58 +1,153 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
+
 
 namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet02
     {
-        public bool CharacterIsALetter(char c)
+        public  bool CharacterIsALetter(char c)
         {
-            throw new NotImplementedException();
+            
+
+            if (char.IsLetter(c))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
+            
         }
 
         public bool CountOfElementsIsEven(string[] vals)
         {
-            throw new NotImplementedException();
+
+            return vals.Count() % 2 == 0;
+
         }
 
         public bool IsNumberEven(int number)
+         
         {
-            throw new NotImplementedException();
+
+            return (number % 2 == 0);
+             
+
+               
+               
         }
+     
 
         public bool IsNumberOdd(int num)
         {
-            throw new NotImplementedException();
+
+            return (num % 2 != 0);
+
+        
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            throw new NotImplementedException();
+
+            if (numbers == null || numbers.Count() == 0)
+            {
+
+                return 0;
+
+            }
+
+            return numbers.Min() + numbers.Max();
+
+
+            //numbers.Count would give us access to Ienumerable
+           
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
-            throw new NotImplementedException();
+
+
+            
+           return (str1.Length > str2.Length) ? str2.Length : str1.Length;
+           
+
+            
         }
 
         public int Sum(int[] numbers)
         {
-            throw new NotImplementedException();
+
+            return (numbers == null) ? 0 : numbers.Sum();
+
+
+            //throw new NotImplementedException();
+
         }
 
         public int SumEvens(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null)
+            {
+                return 0;
+            }
+
+
+            var sum = 0;
+
+            foreach (var num in numbers)
+            {
+                if(num % 2 == 0)
+                {
+                    sum += num;
+                }
+
+                
+            }
+
+                return sum;
+            
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
-            throw new NotImplementedException();
+            if(numbers == null)
+            {
+                return false;
+            }
+
+            var sum = numbers.Sum();
+
+            if(sum % 2 != 0)
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
+        //return numbers.Sum() % 2 != 0;
+            
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            throw new NotImplementedException();
+
+           if(number < 0)
+            {
+                return 0;
+            }
+
+            return number / 2;
+
+
+
+            //throw new NotImplementedException();
         }
     }
 }
