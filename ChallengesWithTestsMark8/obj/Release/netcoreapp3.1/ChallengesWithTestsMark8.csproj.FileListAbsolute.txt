@@ -1,0 +1,5 @@
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Release/netcoreapp3.1/ChallengesWithTestsMark8.csproj.AssemblyReference.cache
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Release/netcoreapp3.1/ChallengesWithTestsMark8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Release/netcoreapp3.1/ChallengesWithTestsMark8.AssemblyInfoInputs.cache
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Release/netcoreapp3.1/ChallengesWithTestsMark8.AssemblyInfo.cs
+/Users/miah/Desktop/Repos/WeeklyChallenges/ChallengesWithTestsMark8/obj/Release/netcoreapp3.1/ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache

@@ -29,16 +29,21 @@ namespace ChallengesWithTestsMark8
 
             return vals.Count() % 2 == 0;
 
+           // return (vals.Length % 2 == 0) ? true : false
+           //both tests work 
+
+
         }
 
         public bool IsNumberEven(int number)
          
         {
 
-            return (number % 2 == 0);
-             
+            //return (number % 2 == 0);
 
-               
+            return (number % 2 == 0) ? true : false;
+
+               //both tests work
                
         }
      
@@ -55,15 +60,22 @@ namespace ChallengesWithTestsMark8
         {
 
             if (numbers == null || numbers.Count() == 0)
+
+
             {
 
                 return 0;
 
             }
 
-            return numbers.Min() + numbers.Max();
+            else
+            {
 
 
+
+                return numbers.Min() + numbers.Max();
+
+            }
             //numbers.Count would give us access to Ienumerable
            
         }
@@ -73,7 +85,7 @@ namespace ChallengesWithTestsMark8
 
 
             
-           return (str1.Length > str2.Length) ? str2.Length : str1.Length;
+           return (str1.Length > str2.Length) ? str2.Length : str1.Length; //ternary
            
 
             
@@ -82,10 +94,10 @@ namespace ChallengesWithTestsMark8
         public int Sum(int[] numbers)
         {
 
-            return (numbers == null) ? 0 : numbers.Sum();
+            return (numbers == null) ? 0 : numbers.Sum();  //if numbers == null return 0 if not return the sum of numbers
 
 
-            //throw new NotImplementedException();
+            
 
         }
 
@@ -106,23 +118,22 @@ namespace ChallengesWithTestsMark8
                     sum += num;
                 }
 
-                
             }
 
                 return sum;
-            
+        
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
-            if(numbers == null)
+            if (numbers == null)
             {
                 return false;
             }
 
             var sum = numbers.Sum();
 
-            if(sum % 2 != 0)
+            if (sum % 2 != 0)
             {
                 return true;
             }
@@ -131,7 +142,13 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
-        //return numbers.Sum() % 2 != 0;
+
+            //if(numbers == null)
+            //{
+            //return false;
+            //}
+
+            //return (numbers.Sum() % 2 != 0);
             
         }
 
@@ -147,7 +164,7 @@ namespace ChallengesWithTestsMark8
 
 
 
-            //throw new NotImplementedException();
+            
         }
     }
 }
