@@ -141,6 +141,8 @@ namespace ChallengesWithTestsMark8
             {
                 return number * Factorial(number - 1);
             }
+
+            //linq/ternary method return (number == 0) ? 1 : Enumerable.Range(1, number).Aggregate((f, s) => f * s);   f = factorial s = sum
         }
     }
 }
