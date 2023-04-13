@@ -45,6 +45,8 @@ namespace ChallengesWithTestsMark8
             {
                 return str4.Length;
             }
+
+            //return new List<int>() { str1.Length, str2.Length, str3.Length, str4.Length }.Min();
         }
 
         public int GetSmallestNumber(int number1, int number2, int number3, int number4)
@@ -65,6 +67,8 @@ namespace ChallengesWithTestsMark8
             {
                 return number4;
             }
+
+            //return new List<int>() { number1, number2, number3, number4 }.Min();
         }
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)

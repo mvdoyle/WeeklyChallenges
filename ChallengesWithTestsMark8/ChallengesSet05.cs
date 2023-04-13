@@ -46,8 +46,6 @@ namespace ChallengesWithTestsMark8
 
         public int SumElementsThatFollowAnEven(int[] numbers)
         {
-            // return one liner here
-
             if (numbers == null || numbers.Length == 0)
             {
                 return 0;

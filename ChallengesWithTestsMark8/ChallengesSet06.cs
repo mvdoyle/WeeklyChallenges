@@ -53,21 +53,21 @@ namespace ChallengesWithTestsMark8
         public int IndexOfLastUniqueLetter(string str)
         {
             //int index = -1;
-            //bool uindex;
+            //bool uniqueIndex;
 
             //for (int i = 0; i < str.Length; i++)
             //{
-            //    uindex = true;
+            //    uniqueIndex = true;
 
             //    for (int j = 0; j < str.Length; j++)
             //    {
             //        if (str[i] == str[j] && i != j)
             //        {
-            //            uindex = false;
+            //            uniqueIndex = false;
             //        }
             //    }
 
-            //    if (uindex == true)
+            //    if (uniqueIndex == true)
             //    {
             //        index = i;
             //    }
@@ -118,7 +118,7 @@ namespace ChallengesWithTestsMark8
 
             if (elements == null)
             {
-                return new double[] { };
+                return Array.Empty<double>();
             }
 
             for (int i = 0; i < elements.Count; i++)
