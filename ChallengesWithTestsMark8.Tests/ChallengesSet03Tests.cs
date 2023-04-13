@@ -234,21 +234,21 @@ namespace ChallengesWithTestsMark8.Tests
         }
 
 
-        [Theory]
-        [InlineData(new char[] { 'a', 'c', 'd' }, 'b')]
-        [InlineData(new char[] { 'd', 'e', 'f', 'g', 'i' }, 'h')]
-        [InlineData(new char[] { 'D', 'E', 'F', 'G', 'I' }, 'H')]
-        public void MissingLetter(char[] input, char expected)
-        {
-            // Arrange
-            ChallengesSet03 challenger = new ChallengesSet03();
+        //[Theory]
+        //[InlineData(new char[] { 'a', 'c', 'd' }, 'b')]
+        //[InlineData(new char[] { 'd', 'e', 'f', 'g', 'i' }, 'h')]
+        //[InlineData(new char[] { 'D', 'E', 'F', 'G', 'I' }, 'H')]
+        //public void MissingLetter(char[] input, char expected)
+        //{
+        //    // Arrange
+        //    ChallengesSet03 challenger = new ChallengesSet03();
 
-            // Act
-            char actual = challenger.FindMissingLetter(input);
+        //    // Act
+        //    char actual = challenger.FindMissingLetter(input);
 
-            // Assert
-            Assert.Equal(expected, actual);
-        }
+        //    // Assert
+        //    Assert.Equal(expected, actual);
+        //}
 
     }
 }

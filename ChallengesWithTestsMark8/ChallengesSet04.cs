@@ -8,38 +8,67 @@ namespace ChallengesWithTestsMark8
     {
         public int AddEvenSubtractOdd(int[] numbers)
         {
-            //var sum = 0;
-
-            //foreach (var num in numbers)
+            //var evens = 0;
+            //var odds = 0;
+            //foreach (var number in numbers)
             //{
-            //    if (num % 2 == 0)
+            //    if (number % 2 == 0)
             //    {
-            //        sum += num;
+            //        evens += number;
             //    }
-
-            //    if (num % 2 != 0)
+            //    else
             //    {
-            //        sum -= num;
+            //        odds += number;
             //    }
             //}
 
-            //return sum;
+            //return evens - odds;
 
             return numbers.Where(x => x % 2 == 0).Sum() - numbers.Where(x => x % 2 != 0).Sum();
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
         {
-            var list = new List<int> { str1.Length, str2.Length, str3.Length, str4.Length };
+            if (str1.Length <= str2.Length && str1.Length <= str3.Length && str1.Length <= str4.Length)
+            {
+                return str1.Length;
+            }
+            else if (str2.Length <= str1.Length && str2.Length <= str3.Length && str2.Length <= str4.Length)
+            {
+                return str2.Length;
+            }
+            else if (str3.Length <= str1.Length && str3.Length <= str2.Length && str3.Length <= str4.Length)
+            {
+                return str3.Length;
+            }
+            else
+            {
+                return str4.Length;
+            }
 
-            return list.Min();
+            //return new List<int>() { str1.Length, str2.Length, str3.Length, str4.Length }.Min();
         }
 
         public int GetSmallestNumber(int number1, int number2, int number3, int number4)
         {
-            var list = new List<int>() { number1, number2, number3, number4 };
+            if (number1 <= number2 && number1 <= number3 && number1 <= number4)
+            {
+                return number1;
+            }
+            else if (number2 <= number1 && number2 <= number3 && number2 <= number4)
+            {
+                return number2;
+            }
+            else if (number3 <= number1 && number3 <= number2 && number3 <= number4)
+            {
+                return number3;
+            }
+            else
+            {
+                return number4;
+            }
 
-            return list.Min();
+            //return new List<int>() { number1, number2, number3, number4 }.Min();
         }
 
         public void ChangeBusinessNameTo_TrueCoders(Business biz)
@@ -49,91 +78,89 @@ namespace ChallengesWithTestsMark8
 
         public bool CouldFormTriangle(int sideLength1, int sideLength2, int sideLength3)
         {
-            return (
-                    sideLength1 + sideLength2 > sideLength3 &&
-                    sideLength1 + sideLength3 > sideLength2 &&
-                    sideLength2 + sideLength3 > sideLength1
-                   );
-            
+            return sideLength1 + sideLength2 > sideLength3 &&
+                   sideLength2 + sideLength3 > sideLength1 &&
+                   sideLength1 + sideLength3 > sideLength2;
         }
 
         public bool IsStringANumber(string input)
         {
-            var isNumber = double.TryParse(input, out double number);
+            try
+            {
+                double parsedNumber = double.Parse(input);
+            }
+            catch (ArgumentNullException e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
 
-            return isNumber;
+            return true;
         }
 
         public bool MajorityOfElementsInArrayAreNull(object[] objs)
         {
-            var amount = objs.Length;
-            var majority = (amount / 2) + 1;
+            int nullCount = 0;
 
-            var count = 0;
-
-            foreach (var obj in objs)
+            foreach (var item in objs)
             {
-                if (obj == null)
+                if (item == null)
                 {
-                    count++;
+                    nullCount++;
                 }
             }
 
-            if(count >= majority)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return nullCount > objs.Length / 2;
         }
 
         public double AverageEvens(int[] numbers)
         {
-            double sum = 0;
-            double count = 0;
-
-            if(numbers == null)
+            if (numbers == null || numbers.Length == 0)
             {
                 return 0;
             }
 
-            foreach(var num in numbers)
+            double sum = 0;
+            double count = 0;
+
+            foreach (var number in numbers)
             {
-                if(num % 2 == 0)
+                if (number % 2 == 0)
                 {
-                    sum += num; //sum = sum + num
+                    sum += number;
                     count++;
                 }
             }
 
-            if(count > 0)
-            {
-                return sum / count;
-            }
-            else
-            {
-                return 0;
-            }
-            
+            return count == 0 ? 0 : sum / count;
+
         }
 
         public int Factorial(int number)
         {
-            var fact = 1;
-
-            if(number < 0)
+            if (number < 0)
             {
                 throw new ArgumentOutOfRangeException();
             }
 
-            for(int i = number; i > 0; i--)
+            int sum = 1;
+
+            for (int i = number; i > 0; i--)
             {
-                fact *= i;
+                sum *= i;
             }
 
-            return fact;
+            return sum;
         }
     }
 }
