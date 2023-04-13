@@ -34,28 +34,6 @@ namespace ChallengesWithTestsMark8
 
         public bool IsPrimeNumber(int num)
         {
-            //var isPrime = false;
-
-            //if (num >= 0)
-            //{
-            //    if (num % 2 != 0 && num % 3 != 0)
-            //    {
-            //        isPrime = true;
-            //    }
-            //}
-
-            //if ((num == 2) || (num == 3))
-            //{
-            //    isPrime = true;
-            //}
-
-            //if (num == 1)
-            //{
-            //    isPrime = false;
-            //}
-
-            //return isPrime;
-
             if (num <= 1) return false;
             if (num == 2) return true;
             if (num % 2 == 0) return false;

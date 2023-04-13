@@ -51,57 +51,6 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            //if (numbers == null || numbers.Count() <= 0)
-            //{
-            //    return 0;                
-            //}
-            //else if (numbers.Count() == 1 || numbers.Count() == 2)
-            //{
-            //    return numbers.First() + numbers.Last();
-            //}
-            //else
-            //{
-            //    double min = 0;
-            //    double max = 0;
-
-            //    var list = numbers.ToList();
-
-            //    for (int i = 0; i < list.Count - 1; i++)
-            //    {
-            //        if (list[i] > list[i + 1])
-            //        {
-            //            max = list[i];
-            //        }
-            //    }
-
-            //    if (max < list[list.Count - 1])
-            //    {
-            //        max = list[list.Count - 1];
-            //    }
-
-            //    var minList = new List<double>();
-            //    minList.Add(0);
-
-            //    for (int i = list.Count - 1; i > 0; i--)
-            //    {
-            //        if (list[i] < list[i - 1] && list[i] < minList[0])
-            //        {
-            //            min = list[i];
-            //            minList.RemoveAt(0);
-            //            minList.Add(min);
-            //        }
-            //    }
-
-            //    if (list[0] < minList[0])
-            //    {
-            //        min = list[0];
-            //    }
-
-
-            //    return min + max;
-            //}
-
-
             if (numbers == null || numbers.Count() == 0)
             {
                 return 0;
@@ -120,7 +69,6 @@ namespace ChallengesWithTestsMark8
             {
                 return str2.Length;
             }
-
 
             //return str1.Length < str2.Length ? str1.Length : str2.Length;
 

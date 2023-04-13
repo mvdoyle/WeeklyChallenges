@@ -97,7 +97,7 @@ namespace ChallengesWithTestsMark8
         {
             if (elements == null || elements.Count == 0)
             {
-                return new double[0];
+                return Array.Empty<double>();
             }
 
             var everyFourth = new List<double>();
