@@ -47,6 +47,7 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(99991, true)]
         [InlineData(1, false)]
         [InlineData(4, false)]
+        [InlineData(25, false)]
         [InlineData(2000, false)]
         [InlineData(10011, false)]
         [InlineData(99561, false)]
