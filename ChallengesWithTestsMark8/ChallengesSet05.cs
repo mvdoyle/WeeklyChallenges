@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -12,35 +13,41 @@ namespace ChallengesWithTestsMark8
 
         public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(Business[] businesses)
         {
-            for (int i = 0; i < businesses.Length; i++)
-            {
-                if (businesses[i].TotalRevenue == 0)
-                {
-                    businesses[i].Name = "CLOSED";
-                }
-            }
+            businesses.Where(x => x.TotalRevenue == 0).ToList().ForEach(biz => biz.Name = "CLOSED");
+
+            //for (int i = 0; i < businesses.Length; i++)
+            //{
+            //    if (businesses[i].TotalRevenue == 0)
+            //    {
+            //        businesses[i].Name = "CLOSED";
+            //    }
+            //}
         }
 
         public bool IsAscendingOrder(int[] numbers)
         {
-            if (numbers == null || numbers.Length == 0)
-            {
-                return false;
-            }
+            return numbers != null && numbers.Length != 0 && numbers.SequenceEqual(numbers.OrderBy(x => x));
 
-            for (int i = 1; i < numbers.Length; i++)
-            {
-                if (numbers[i] < numbers[i - 1])
-                {
-                    return false;
-                }
-            }
+            //if (numbers == null || numbers.Length == 0)
+            //{
+            //    return false;
+            //}
 
-            return true;
+            //for (int i = 1; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] < numbers[i - 1])
+            //    {
+            //        return false;
+            //    }
+            //}
+
+            //return true;
         }
 
         public int SumElementsThatFollowAnEven(int[] numbers)
         {
+            // return one liner here
+
             if (numbers == null || numbers.Length == 0)
             {
                 return 0;
@@ -93,7 +100,7 @@ namespace ChallengesWithTestsMark8
                 return new double[0];
             }
 
-            List<double> everyFourth = new List<double>();
+            var everyFourth = new List<double>();
 
             for (int i = 3; i < elements.Count; i += 4)
             {

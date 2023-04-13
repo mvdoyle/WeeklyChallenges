@@ -1,0 +1,15 @@
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.exe
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.deps.json
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.runtimeconfig.json
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.dll
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\bin\Debug\net6.0\ChallengesWithTestsMark8.pdb
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.csproj.AssemblyReference.cache
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfoInputs.cache
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.AssemblyInfo.cs
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.csproj.CoreCompileInputs.cache
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.dll
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\refint\ChallengesWithTestsMark8.dll
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.pdb
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ChallengesWithTestsMark8.genruntimeconfig.cache
+C:\Users\johnd\Desktop\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\net6.0\ref\ChallengesWithTestsMark8.dll

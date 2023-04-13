@@ -19,7 +19,7 @@ namespace ChallengesWithTestsMark8
             {
                 word = word.ToLower();
 
-                List<string> lc = words.Select(x => x.ToLower()).ToList();
+                var lc = words.Select(x => x.ToLower()).ToList();
 
                 containsWord = lc.Contains(word);
             }
@@ -34,51 +34,77 @@ namespace ChallengesWithTestsMark8
 
         public bool IsPrimeNumber(int num)
         {
-            var isPrime = false;
+            //var isPrime = false;
 
-            if (num >= 0)
+            //if (num >= 0)
+            //{
+            //    if (num % 2 != 0 && num % 3 != 0)
+            //    {
+            //        isPrime = true;
+            //    }
+            //}
+
+            //if ((num == 2) || (num == 3))
+            //{
+            //    isPrime = true;
+            //}
+
+            //if (num == 1)
+            //{
+            //    isPrime = false;
+            //}
+
+            //return isPrime;
+
+            if (num <= 1) return false;
+            if (num == 2) return true;
+            if (num % 2 == 0) return false;
+
+            var boundary = (int)Math.Floor(Math.Sqrt(num));
+
+            for (var i = 3; i <= boundary; i += 2)
             {
-                if (num % 2 != 0 && num % 3 != 0)
+                if (num % i == 0)
                 {
-                    isPrime = true;
+                    return false;
                 }
             }
-
-            if ((num == 2) || (num == 3))
-            {
-                isPrime = true;
-            }
-
-            if (num == 1)
-            {
-                isPrime = false;
-            }
-
-            return isPrime;
+            return true;
         }
+
         public int IndexOfLastUniqueLetter(string str)
         {
-            int index = -1;
-            bool uindex;
+            //int index = -1;
+            //bool uindex;
 
-            for (int i = 0; i < str.Length; i++)
+            //for (int i = 0; i < str.Length; i++)
+            //{
+            //    uindex = true;
+
+            //    for (int j = 0; j < str.Length; j++)
+            //    {
+            //        if (str[i] == str[j] && i != j)
+            //        {
+            //            uindex = false;
+            //        }
+            //    }
+
+            //    if (uindex == true)
+            //    {
+            //        index = i;
+            //    }
+            //}
+            //return index;
+
+            for (int i = str.Length - 1; i >= 0; i--)
             {
-                uindex = true;
-
-                for (int j = 0; j < str.Length; j++)
+                if (str.IndexOf(str[i]) == str.LastIndexOf(str[i]))
                 {
-                    if (str[i] == str[j] && i != j)
-                    {
-                        uindex = false;
-                    }
+                    return i;
                 }
 
-                if (uindex == true)
-                {
-                    index = i;
-                }
             }
-            return index;
+            return -1;
         }
 
         public int MaxConsecutiveCount(int[] numbers)
@@ -110,12 +136,11 @@ namespace ChallengesWithTestsMark8
 
         public double[] GetEveryNthElement(List<double> elements, int n)
         {
-            List<double> nthElement = new List<double>();
-            double[] nullCheck = new double[0];
+            var nthElement = new List<double>();
 
             if (elements == null)
             {
-                return nullCheck;
+                return new double[] { };
             }
 
             for (int i = 0; i < elements.Count; i++)
@@ -131,9 +156,8 @@ namespace ChallengesWithTestsMark8
                 }
             }
 
-            double[] finalArray = nthElement.ToArray();
+            return nthElement.ToArray();
 
-            return finalArray;
         }
     }
 }
