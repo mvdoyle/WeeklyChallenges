@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+QzrQ06oj+JpF8eVrIJMVaCm86+25cxLd2MqRq62HuAf0qIZ4oRnovYatPU9dzDgqSLmnbkwiTJ/jFoL92I4zg==",
+  "dgSpecHash": "9cuIYEhrA7dRrOThbL8Ld4vKAvRFcsJ3rKB4j7bg0iq/8KSzXpOW/9xmK2dZKIz7yvstj8K/Xl2FzomsCcjpyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amori\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\spike\\Source\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
