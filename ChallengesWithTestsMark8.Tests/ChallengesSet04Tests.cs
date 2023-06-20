@@ -89,6 +89,9 @@ namespace ChallengesWithTestsMark8.Tests
         }
 
         [Theory]
+        [InlineData(1,1,50,false)]
+        [InlineData(1,50,1,false)]
+        [InlineData(50,1,1, false)]
         [InlineData(2, 2, 2, true)]
         [InlineData(2, 3, 2, true)]
         [InlineData(3, 4, 5, true)]
